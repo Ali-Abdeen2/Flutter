@@ -758,7 +758,7 @@ class _Test8State extends State<Test8> {
       ],
     ),
     floatingActionButton: FloatingActionButton(onPressed: () {
-      pc.animateToPage(0, duration: Duration(seconds: 2), curve:Curves.linear);
+      pc.animateToPage(0, duration: Duration(seconds: 3), curve:Curves.linear);
     },),
     );
   }
